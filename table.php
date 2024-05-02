@@ -1,3 +1,4 @@
+include('./auth.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,6 +28,8 @@
 </head>
 <body>
     <table>
+<a href="form.php">new user</a> &nbsp; &nbsp; &nbsp; &nbsp;
+<a href="logout.php">logout</a>
         <tr>
             <th>user id</th>
             <th>Username</th>
